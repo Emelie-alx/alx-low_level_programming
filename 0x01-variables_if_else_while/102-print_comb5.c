@@ -1,7 +1,4 @@
 #include <stdio.h>
-
-
-
 /**
  * main - Prints numbers between 00 to 99.
  *
@@ -12,51 +9,49 @@ int main(void)
 
 {
 
-int i, e, g, h, op1, op2;
+	int i, e, g, h, op1, op2;
 
+	i = e = g = h = 48;
 
-
-i = e = g = h = 48;
-
-while (h < 58)
-
-{
-
-	g = 48;
-
-	while (g < 58)
+	while (h < 58)
 
 	{
 
-		e = 48;
+		g = 48;
 
-		while (e < 58)
+		while (g < 58)
 
 		{
 
-			i = 48;
+			e = 48;
 
-			while (i < 58)
+			while (e < 58)
 
 			{
 
-				op1 = (h * 10) + g;
+				i = 48;
 
-				op2 = (e * 10) + i;
-
-				if (op1 < op2)
+				while (i < 58)
 
 				{
 
-					putchar(h);
+					op1 = (h * 10) + g;
 
-					putchar(g);
+					op2 = (e * 10) + i;
 
-					putchar(' ');
+					if (op1 < op2)
 
-					putchar(e);
+					{
 
-					putchar(i);
+						putchar(h);
+
+						putchar(g);
+
+						putchar(' ');
+
+						putchar(e);
+
+						putchar(i);
 
 					if (h == 57 && g == 56 && e == 57 && i == 57)
 
