@@ -7,18 +7,14 @@
   */
 char *_strcpy(char *dest, char *src)
 {
-	int i, j, k;
-	char *l;
+	static char *l;
+	int i = 0;
 
-	dest = src;
+	do {
+		*(dest + i) = *(src + i);
+		i++;
+	} while (*(src + i) != 0);
+
 	l = dest;
-	/*for (i = 0; *(dest + i) != 0; i++)
-	{
-		continue;
-	}
-	for (j = 0; j < i; j++)
-	{
-		return (*(l + j));
-	}*/
 	return (l);
 }
