@@ -1,9 +1,9 @@
-#include "mainh"
+#include "main.h"
 /**
   * puts_half - Prits second ahlf of a string
   * @str: String to be halfed
   */
-void puts_half(char str)
+void puts_half(char *str)
 {
 	int i, k, l, m, n, o, p;
 
