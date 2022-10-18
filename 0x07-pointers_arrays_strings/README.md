@@ -20,4 +20,4 @@
 |`100-set_string.c`|Sets the value of a pointer to a char|
 |`101-crackme_password`|Conatains the password for the `crackme2` executable|
 ## Lisence
-Opensource :joy:
+Opensource :relieved:
