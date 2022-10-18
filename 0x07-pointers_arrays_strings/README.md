@@ -1,5 +1,5 @@
 # Even more pointers, arrays and strngs
-- This project is a deeper dive into pointers and arrays. It's part of my task in the ==ALX Sofware Engineering Programme==
+- This project is a deeper dive into pointers and arrays. It's part of my task in the ==ALX Sofware Engineering Programme==.
 ## Technologies
 - `gcc` compiler
 - ubuntu terminal
